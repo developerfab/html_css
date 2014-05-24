@@ -174,14 +174,84 @@ li .lateral-icon2{
 .contenido{
 	background: #fff;
 	padding: 1% 4%;
+	padding-top: 45px;
+	padding-left: 68px;
+	color: rgb(127,127,127);
+}
+
+.marco-contenido{
+	display: inline-block;
+}
+
+.contenido .titulo{
+	color: rgb(1,53,100);
+	padding-bottom: 25px;
+	font-size: 25px;
+
+}
+/* se establece espacio inferior del parrafo que contiene el cuerpo */
+.contenido .cuerpo{
+	padding-bottom: 25px;
+}
+
+/* Espacio padding de las divisiones de la tabla 1 y 2 */
+.contenido .tabla_1 tr td,
+.contenido .tabla_2 tr td{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 15px;
+}
+
+/* modificacion de color de fondo y border a los renglones impares de la tabla 1 */
+.contenido .tabla_1 tr:nth-child(odd){
+	background: rgb(251,255,228);
+	border-color: rgb(209,220,141);
+	border: 1px solid;
+}
+
+/* se establace color de la letrade las columnas 1 y 2 de la tabla 1 mediante la modificacion de las divisiones */
+.contenido .tabla_1 td:first-child,
+.contenido .tabla_1 td:nth-child(2){
+	color: rgb(48,66,86);
+}
+/* se establece color de texto de la ultima columna de la tabla 1*/
+.contenido .tabla_1 td:nth-child(3){
+	color: rgb(135,154,39);
+}
+
+/* se establece el fondo y borde de las filas impares de la tabla 2 */
+.contenido .tabla_2 tr:nth-child(odd){
+	background: rgb(243,251,253);
+	border-color: rgb(216,231,238);
+	border: 1px solid;
+}
+
+.contenido .tabla_2 td:first-child,
+.contenido .tabla_2 td:nth-child(2){
+	color: rgb(47,66,81);
+}
+
+.contenido .tabla_2 td:nth-child(4){
+	color: #2F9FCD;
 }
 
 .pie{
 	background: rgb(0,54,100);
 	display: inline-block;
 	padding-top: 20px;
+	padding-left: 200px;
 	border-top: 3px solid #002746;
 	padding-bottom: 1105px;
+}
+
+.pie ul li{
+	color: #0C99C7;
+	padding: 7px 0px;
+}
+
+.pie .final{
+	color: rgb(39,92,136);
 }
 
 #login{
