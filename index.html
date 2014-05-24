@@ -8,15 +8,15 @@
 		<link rel="stylesheet" type="text/css" href="css/site.css">
 	</head>
 	<body>
-	<div class="clearfix">
+	
 		<!-- cabecera del sitio-->
 		<div class="encabezado">
-			<section class=" container_12 enlace-blanco  ">
-			
+			<section class=" container_12 enlace-blanco">
 				<ul class="grid_12 clearfix">
-				<li class="grid_10 push_1"><img src="images/logo.png"></li>
-				<li class="pull_1"><a href="#">Our Network</a><img src="images/dropdown-blue.png"></li>
-			</ul>
+					<li class="grid_9 push_1"><img src="images/logo.png"></li>
+					<li class="text-relieve grid_2 pull_1">Our Network</li>
+					<li class="grid_1 pull_1"><img src="images/dropdown-blue.png"></li>
+				</ul>
 			</section>
 		</div>
 		<!-- menu de navegacion -->
@@ -28,9 +28,10 @@
 					<li class="casilla"><img src="images/shop-icon.png"><a href="#">Shop</a></li>
 				</ul>
 				<ul class="grid_6 pull_1 derecha enlace-blanco">
-					<li class="derecha"><img src="images/my-account-icon.png"><a href="#">My Account</a></li>
-					<li class="derecha"><img src="images/sign-up-icon.png"><a href="#">Sign Up</a></li>
-					<li class="derecha "><img src="images/contact-icon.png"><a href="#">Contact</a></li>
+					<li class="derecha opcion-user"><img src="images/contact-icon.png"><a href="#">Contact</a></li>
+					<li class="derecha opcion-user"><img src="images/sign-up-icon.png"><a href="#">Sign Up</a></li>
+					<li class="derecha opcion-user"><img src="images/my-account-icon.png"><a href="#">My Account</a></li>
+					
 				</ul>
 			</nav>
 		</section>
@@ -38,14 +39,14 @@
 		<!-- seccion del mapa y submenu del sitio-->
 		<section class="mapa">
 			<div class="container_12">
-				<nav class="push_1 grid_10 sub-select">
-				<ul >
+				<nav class="push_1 grid_10 sub-select ">
+				<ul class="">
 					<li class="enlace-blanco separa"><a href="#">Find a Location</a></li>
 					<li class="enlace-blanco separa"><a href="#">Add a location</a></li>
 					<li class="enlace-blanco separa"><a href="#">Review a location</a></li>
-					<li class="enlace-blanco"><a href="#">Review a location</a></li>
-					<li class="enlace-blanco"><a href="#">Login Here or</a></li>
-					<li class="enlace-blanco"><a href="#">Register</a></li>
+					<li class="enlace-blanco separa"><a href="#">Review a location</a></li>
+					<li class="enlace-blanco derecha"> <input id="register" type="submit" value="Register" />	</li>
+					<li class="enlace-blanco derecha" id="login"><a href="#">Login Here or</a></li>
 				</ul>
 			</nav>
 			</div>
@@ -225,66 +226,67 @@
 			</section>
 		</section>
 		<!-- pie de pagina del sitio -->
-		<footer class="container_12">
-			<div class="pie">
-				<section class="grid_2">
-					<header>
-						<a href="#">About Us</a>
-					</header>
-					<ul>
-						<li>About Us</li>
-						<li>Who started it</li>
-						<li>how to help</li>
-					</ul>
-				</section>
+		<div class="pie">
+			<footer class="container_12 clearfix ">
+				<div class="clearfix">
+					<section class="grid_2">
+						<header>
+							<a href="#">About Us</a>
+						</header>
+						<ul>
+							<li>About Us</li>
+							<li>Who started it</li>
+							<li>how to help</li>
+						</ul>
+					</section>
 
-				<section class="grid_2">
-					<header>
-						Account Information
-					</header>
-					<ul>
-						<li>How to login</li>
-						<li>Create an account</li>
-						<li>Logout</li>
-						<li>Join us</li>
-					</ul>
-				</section>
+					<section class="grid_2">
+						<header>
+							Account Information
+						</header>
+						<ul>
+							<li>How to login</li>
+							<li>Create an account</li>
+							<li>Logout</li>
+							<li>Join us</li>
+						</ul>
+					</section>
 
-				<section class="grid_2">
-					<header>
-						<a href="#">About Us</a>
-					</header>
-					<ul>
-						<li>About Us</li>
-						<li>Who started it</li>
-						<li>how to help</li>
-					</ul>
-				</section>
+					<section class="grid_2">
+						<header>
+							<a href="#">About Us</a>
+						</header>
+						<ul>
+							<li>About Us</li>
+							<li>Who started it</li>
+							<li>how to help</li>
+						</ul>
+					</section>
 
-				<section class="grid_2">
-					<header>
-						Account Information
-					</header>
-					<ul>
-						<li>How to login</li>
-						<li>Create an account</li>
-						<li>Logout</li>
-						<li>Join us</li>
-					</ul>
-				</section>
+					<section class="grid_2">
+						<header>
+							Account Information
+						</header>
+						<ul>
+							<li>How to login</li>
+							<li>Create an account</li>
+							<li>Logout</li>
+							<li>Join us</li>
+						</ul>
+					</section>
 
-				<section class="grid_2">
-					<p>Our Network <img src="images/dropdown-blue.png"></p>
-				</section>
-				<section class="grid_12">
-					<article>
-						<p>
-							We've made some small changes to BlazRobar.com To keep the quality high on th website and make sure everyone is playing nice, we've added a member login section. Create an account, then you'll have access to download all the files on the site. Don't worry though, it's all still free.
-						</p>
-					</article>
-				</section>
-			</div>
-		</footer>
-	</div>
+					<section class="grid_2">
+						<p>Our Network <img src="images/dropdown-blue.png"></p>
+					</section>
+					<section class="grid_12">
+						<article>
+							<p>
+								We've made some small changes to BlazRobar.com To keep the quality high on th website and make sure everyone is playing nice, we've added a member login section. Create an account, then you'll have access to download all the files on the site. Don't worry though, it's all still free.
+							</p>
+						</article>
+					</section>
+				</div>
+			</footer>
+		</div>
 	</body>
 </html>
